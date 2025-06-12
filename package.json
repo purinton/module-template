@@ -2,7 +2,7 @@
     "name": "@purinton/module-template",
     "type": "module",
     "version": "1.0.2",
-    "description": "A Node.js module template.",
+    "description": "A Node.js module-template.",
     "main": "index.cjs",
     "module": "index.mjs",
     "types": "index.d.ts",
