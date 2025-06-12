@@ -1,5 +1,5 @@
 {
-    "name": "@purinton/template",
+    "name": "@purinton/module-template",
     "type": "module",
     "version": "1.0.0",
     "description": "A Node.js module template.",
@@ -24,7 +24,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/purinton/template.git"
+        "url": "git+https://github.com/purinton/module-template.git"
     },
     "keywords": [
         "path",
@@ -44,9 +44,9 @@
     "author": "Russell Purinton <russell@purinton.us>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/purinton/template/issues"
+        "url": "https://github.com/purinton/module-template/issues"
     },
-    "homepage": "https://github.com/purinton/template#readme",
+    "homepage": "https://github.com/purinton/module-template#readme",
     "devDependencies": {
         "jest": "^29.7.0"
     },
