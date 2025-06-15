@@ -22,6 +22,12 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm test
+      - name: Debug print npm token set
+        run: echo "NPM_TOKEN is set"
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Configure npm auth token
+        run: npm config set //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
       - name: Publish to npm
         if: startsWith(github.ref, 'refs/tags/')
         run: npm publish --provenance --access public
